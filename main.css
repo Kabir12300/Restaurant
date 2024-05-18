@@ -488,6 +488,17 @@ justify-content: space-between;
 /*PHONE STYLING BEGINS*/
 
 @media screen and (max-width: 1170px) {
+
+    .menu-hero{
+        background-image: url(menu\ bg.jpg);
+        background-size:cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+
+
+
     .flexcol-mob{
         display: flex;
         flex-direction: column;
@@ -614,9 +625,6 @@ justify-content: space-between;
         padding-top: 2vh;
         padding-bottom: 2vh;
 }
-
-
-
 
    
 }
