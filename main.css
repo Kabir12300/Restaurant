@@ -433,6 +433,52 @@ align-items: center;
 /*RESERVATIONS PAGE STYLING ENDS*/
 /*RESERVATIONS PAGE STYLING ENDS*/
 
+#menu-section-container{
+    margin-left:5vw ;
+    margin-right:5vw ;
+}
+.menu-items-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.menu-section {
+    margin:  10vh 0;
+    text-align: left;
+}
+
+.menu-section h2 {
+    text-align: left;
+    font-size: 2em;
+}
+
+.menu-item {
+    width: 25vw;
+    
+}
+
+.menu-item h3 {
+    font-size: 1.5em;
+    margin: 5px 0;
+}
+
+.menu-item p {
+    font-size: 1em;
+    margin: 5px 0;
+}
+
+.dish-title{display: flex;
+justify-content: space-between;
+}
+
+.menu-hero{
+    background-image: url(menu\ bg.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
 
 
 .footer-links a:hover{
@@ -541,6 +587,34 @@ align-items: center;
 .form-section {
     padding: 20px;
 }
+
+.menu-section {
+    display: flex;
+    flex-direction: column;
+    margin: 3vh 0;
+    
+}
+
+.menu-items-container{
+    display: flex;
+    flex-direction: column;
+}
+
+#menu-section-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu-item{
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+    width: 80vw;
+        padding-top: 2vh;
+        padding-bottom: 2vh;
+}
+
 
 
 
