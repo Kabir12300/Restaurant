@@ -390,6 +390,7 @@ align-items: center;
     font-weight: bold;
 }
 .form-section input[type="date"],
+.form-section input[type="time"],
 .form-section input[type="text"],
 .form-section input[type="tel"],
 .form-section input[type="email"] {
